@@ -1,5 +1,25 @@
 # Changelog
 
+## 0.122.0 (2026-08-27)
+
+Full Changelog: [sdk-v0.121.0...sdk-v0.122.0](https://github.com/anthropics/anthropic-sdk-typescript/compare/sdk-v0.121.0...sdk-v0.122.0)
+
+### Features
+
+* **api:** beta files/skills namespaces use GA shapes; drop dated beta header pins ([45d693a](https://github.com/anthropics/anthropic-sdk-typescript/commit/45d693a66bc7fb1af66d9c4e3625f6d6f64bae59))
+
+
+### Bug Fixes
+
+* **sessions:** make event accumulator forward-compatible with new event types ([#410](https://github.com/anthropics/anthropic-sdk-typescript/issues/410)) ([2d084fd](https://github.com/anthropics/anthropic-sdk-typescript/commit/2d084fdaeb6b51a1613f321cd65e2184d55d8d1e))
+* **uploads:** default bare Blob filename on skills endpoints ([#422](https://github.com/anthropics/anthropic-sdk-typescript/issues/422)) ([e111649](https://github.com/anthropics/anthropic-sdk-typescript/commit/e1116491dd4021d0237d1bb440237677a03045f5))
+* **webhooks:** require headers to be passed to `unwrap()` ([3230804](https://github.com/anthropics/anthropic-sdk-typescript/commit/3230804e63371f535a850d1df6752284643a01fe))
+
+
+### Chores
+
+* **internal:** codegen related update ([c2f327a](https://github.com/anthropics/anthropic-sdk-typescript/commit/c2f327a30d14a4b1ee4cc777a4d0b37f5d44f0af))
+
 ## 0.121.0 (2026-08-26)
 
 Full Changelog: [sdk-v0.120.0...sdk-v0.121.0](https://github.com/anthropics/anthropic-sdk-typescript/compare/sdk-v0.120.0...sdk-v0.121.0)

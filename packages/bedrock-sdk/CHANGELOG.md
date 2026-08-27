@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.33.3 (2026-08-27)
+
+Full Changelog: [bedrock-sdk-v0.33.2...bedrock-sdk-v0.33.3](https://github.com/anthropics/anthropic-sdk-typescript/compare/bedrock-sdk-v0.33.2...bedrock-sdk-v0.33.3)
+
+### Bug Fixes
+
+* **aws,bedrock:** sign repeated query keys correctly with SigV4 ([#409](https://github.com/anthropics/anthropic-sdk-typescript/issues/409)) ([6a7e22a](https://github.com/anthropics/anthropic-sdk-typescript/commit/6a7e22a00f947f15eecdfe5ac99d21df2ed0ffea))
+
 ## 0.33.2 (2026-08-26)
 
 Full Changelog: [bedrock-sdk-v0.33.1...bedrock-sdk-v0.33.2](https://github.com/anthropics/anthropic-sdk-typescript/compare/bedrock-sdk-v0.33.1...bedrock-sdk-v0.33.2)
